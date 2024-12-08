@@ -2,13 +2,13 @@
 //
 // Source: proto/task/v1/task.proto
 
-package v1connect
+package taskv1connect
 
 import (
 	connect "connectrpc.com/connect"
 	context "context"
 	errors "errors"
-	v1 "github.com/YuichiNAGAO/buf-connect-todo-app/backend/proto/task/v1"
+	v1 "github.com/YuichiNAGAO/buf-connect-todo-app/backend/gen/proto/task/v1"
 	http "net/http"
 	strings "strings"
 )
