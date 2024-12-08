@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package task.v1;
+package proto.task.v1;
 
 // 日付型を外部のprotoファイルからimportする
 import "google/protobuf/timestamp.proto";
